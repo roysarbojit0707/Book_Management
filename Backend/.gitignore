@@ -1,0 +1,47 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+.jpg
+.png
+/src/main/resources/static/images/arrow_icon.png
+/src/main/resources/static/images/right_img.png
+/src/main/resources/static/images/help.png
+/src/main/resources/static/images/Logo.png
+/src/main/resources/static/images/logout.png
+/src/main/resources/static/images/Me.png
+/src/main/resources/static/images/profile.png
+/src/main/resources/static/images/setting.png
+/src/main/resources/static/images/user.png
+/src/main/resources/static/images/L.png
+/src/main/resources/static/images/pic.png
+.env

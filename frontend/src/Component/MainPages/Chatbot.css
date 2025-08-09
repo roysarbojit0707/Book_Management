@@ -1,0 +1,35 @@
+.resizable {
+    resize: both;  /* ✅ Enable resizing */
+    overflow: auto;
+    min-width: 250px;
+    min-height: 300px;
+    max-width: 400px; /* ✅ Set a max width */
+    max-height: 500px; /* ✅ Set a max height */
+    position: fixed;
+    bottom: 16px;
+    right: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  /* ✅ Add a visible resize handle */
+  .resizable::after {
+    content: "";
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    width: 16px;
+    height: 16px;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='24' height='24' fill='white'%3E%3Cpath d='M3 21h18v2H3v-2zm2-4h14v2H5v-2zm2-4h10v2H7v-2zm2-4h6v2H9V9zm2-4h2v2h-2V5z'/%3E%3C/svg%3E")
+      no-repeat center center;
+    background-size: contain;
+    cursor: nwse-resize;
+  }
+  
+  /* ✅ Prevent it from overflowing the screen */
+  @media (max-width: 500px) {
+    .resizable {
+      max-width: 90vw; /* ✅ Don't exceed viewport width */
+      max-height: 90vh;
+    }
+  }
+  

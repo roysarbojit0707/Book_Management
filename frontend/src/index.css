@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+.map-container {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    z-index: 1; /* Ensure it does not overlap navbar */
+    margin-top: 20px; /* Adjust spacing */
+  }
+  
+  
