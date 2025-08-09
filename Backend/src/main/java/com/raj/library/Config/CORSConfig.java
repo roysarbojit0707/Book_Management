@@ -14,7 +14,7 @@ public class CORSConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**") //allowed all end points
-                        .allowedOrigins("http://localhost:5173/","https://bookie-delta.vercel.app/")
+                        .allowedOrigins("http://localhost:5173/","https://book-management-seven-rosy.vercel.app/")
                         .allowedMethods("GET","POST","PUT","DELETE")//allowed methods
                         .allowedHeaders("*");//all headers allowed
             }
