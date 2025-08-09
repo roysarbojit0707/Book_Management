@@ -36,7 +36,7 @@ public class OtpService {
             MimeMessage mimeMessage = javaMailSender.createMimeMessage();
             MimeMessageHelper messageHelper = new MimeMessageHelper(mimeMessage,true);
 
-            messageHelper.setFrom("rajmukherjeegcp@gmail.com");
+            messageHelper.setFrom("sarbojitroy08986@gmail.com");
             messageHelper.setTo(email);
             messageHelper.setSubject("OTP for our Verification: TEAM LIBRARY");
             messageHelper.setText(

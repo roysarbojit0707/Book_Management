@@ -12,7 +12,7 @@ public class EmailService {
 
     public void sendOtpEmail(String mail,String otp){
         SimpleMailMessage message = new SimpleMailMessage();
-        message.setFrom("rajmukherjeegcp@gmail.com");
+        message.setFrom("sarbojitroy08986@gmail.com");
         message.setTo(mail);
         message.setSubject("Your OTP code");
         message.setText("Your otp is: "+otp);

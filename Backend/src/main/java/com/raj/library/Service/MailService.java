@@ -15,7 +15,7 @@ public class MailService {
 
     public boolean sendMailToContact(String recipient,String username,String email,String mobile, String message){
         if(recipient.isEmpty()){
-            recipient = "rajmukherjeegcp@gmail.com"; // Replace with your email
+            recipient = "sarbojitroy08986@gmail.com"; // Replace with your email
         }
         System.out.println(recipient);
         System.out.println(email);
@@ -24,7 +24,7 @@ public class MailService {
             MimeMessageHelper messageHelper = new MimeMessageHelper(mimeMessage, true);
 
             messageHelper.setTo(recipient);
-            messageHelper.setFrom("rajmukherjeegcp@gmail.com");
+            messageHelper.setFrom("sarbojitroy08986@gmail.com");
             messageHelper.setSubject("New Contact Form Submission");
             if(mobile.equals("NULL")){
                 messageHelper.setText(
