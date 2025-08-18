@@ -77,7 +77,7 @@ function MainFooter() {
           <span className="text-sm text-gray-100 sm:text-center">
             © 2023
             <a href="/" className="hover:underline">
-             Sarbojit Roy
+              Sarbojit Roy
             </a>
             . All Rights Reserved.
           </span>
