@@ -38,7 +38,7 @@ function MainFooter() {
               <ul className="text-gray-100 font-medium">
                 <li className="mb-4">
                   <a
-                    href="https://github.com/PralayeshMukherjee"
+                    href="https://github.com/roysarbojit0707"
                     className="hover:underline"
                     target="_blank"
                     rel="noreferrer"
@@ -77,7 +77,7 @@ function MainFooter() {
           <span className="text-sm text-gray-100 sm:text-center">
             © 2023
             <a href="/" className="hover:underline">
-              Pralayesh Mukherjee
+             Sarbojit Roy
             </a>
             . All Rights Reserved.
           </span>
