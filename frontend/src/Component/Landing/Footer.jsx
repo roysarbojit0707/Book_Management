@@ -38,7 +38,7 @@ function MainFooter() {
               <ul className="text-gray-100 font-medium">
                 <li className="mb-4">
                   <a
-                    href="https://github.com/PralayeshMukherjee"
+                    href="https://github.com/roysarbojit0707"
                     className="hover:underline"
                     target="_blank"
                     rel="noreferrer"
